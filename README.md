@@ -4,9 +4,17 @@
 
 > 本仓库用于展示项目设计、产品效果与演示材料，不包含项目源码。
 
-[查看项目演示视频](https://github.com/sweet11021101-png/EasySorting/releases/latest) · [下载项目介绍 PPT](docs/EasySorting.pptx)
+<p align="center">
+  <a href="https://github.com/sweet11021101-png/EasySorting/releases/download/v1.0-demo/default.mp4"><strong>▶ 播放完整项目演示视频</strong></a>
+  &nbsp;·&nbsp;
+  <a href="docs/EasySorting.pptx">下载项目介绍 PPT</a>
+</p>
 
-![EasySorting 首页](assets/screenshots/home.png)
+<p align="center"><sub>视频文件约 258 MB，托管于 GitHub Releases。</sub></p>
+
+<p align="center">
+  <img src="assets/screenshots/home.png" alt="EasySorting 首页" width="300">
+</p>
 
 ## 项目背景
 
@@ -27,30 +35,48 @@ EasySorting 以“学习空间”为核心，把资料整理、章节学习、�
 
 ## 产品效果
 
-<table>
+<table width="100%">
   <tr>
-    <td align="center"><strong>多源资料导入</strong></td>
-    <td align="center"><strong>资料统一管理</strong></td>
+    <td align="center" width="33%">
+      <img src="assets/screenshots/import-materials.png" alt="资料导入页面" width="220"><br>
+      <sub><strong>多源资料导入</strong></sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="assets/screenshots/library.png" alt="资料汇总页面" width="220"><br>
+      <sub><strong>资料统一管理</strong></sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="assets/screenshots/chapter-test.png" alt="章节测试页面" width="220"><br>
+      <sub><strong>章节测试</strong></sub>
+    </td>
   </tr>
   <tr>
-    <td><img src="assets/screenshots/import-materials.png" alt="资料导入页面" width="360"></td>
-    <td><img src="assets/screenshots/library.png" alt="资料汇总页面" width="360"></td>
+    <td align="center" width="33%">
+      <img src="assets/screenshots/source-citation.png" alt="资料引用页面" width="220"><br>
+      <sub><strong>资料引用</strong></sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="assets/screenshots/conversation-branches.png" alt="对话分支页面" width="220"><br>
+      <sub><strong>对话分支</strong></sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="assets/screenshots/mind-map.png" alt="思维导图生成页面" width="220"><br>
+      <sub><strong>思维导图生成</strong></sub>
+    </td>
   </tr>
   <tr>
-    <td align="center"><strong>章节测试</strong></td>
-    <td align="center"><strong>资料引用</strong></td>
-  </tr>
-  <tr>
-    <td><img src="assets/screenshots/chapter-test.png" alt="章节测试页面" width="360"></td>
-    <td><img src="assets/screenshots/source-citation.png" alt="资料引用页面" width="360"></td>
-  </tr>
-  <tr>
-    <td align="center"><strong>对话分支</strong></td>
-    <td align="center"><strong>思维导图生成</strong></td>
-  </tr>
-  <tr>
-    <td><img src="assets/screenshots/conversation-branches.png" alt="对话分支页面" width="360"></td>
-    <td><img src="assets/screenshots/mind-map.png" alt="思维导图生成页面" width="360"></td>
+    <td align="center" width="33%">
+      <img src="assets/screenshots/image-text-followup.png" alt="图片文字追问页面" width="220"><br>
+      <sub><strong>图片文字追问</strong></sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="assets/screenshots/exam-preview.png" alt="试卷预览页面" width="220"><br>
+      <sub><strong>试卷预览</strong></sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="assets/screenshots/test-export.png" alt="测试内容导出页面" width="220"><br>
+      <sub><strong>测试内容导出</strong></sub>
+    </td>
   </tr>
 </table>
 
@@ -103,25 +129,6 @@ flowchart LR
 
 在 50 次端到端管线测试中，系统记录到 86.7% 的总体成功率。主要失败来源是模型输出格式异常与部分章节生成超时，这些结果也明确了后续需要继续优化的方向。
 
-## 更多界面
-
-<details>
-  <summary>展开查看其他效果图</summary>
-
-  ### 图片文字追问
-
-  ![图片文字追问页面](assets/screenshots/image-text-followup.png)
-
-  ### 试卷预览
-
-  ![试卷预览页面](assets/screenshots/exam-preview.png)
-
-  ### 测试内容导出
-
-  ![测试内容导出页面](assets/screenshots/test-export.png)
-
-</details>
-
 ## 仓库内容
 
 ```text
@@ -133,7 +140,7 @@ EasySorting/
     └── EasySorting.pptx # 项目介绍演示文稿
 ```
 
-完整操作视频存放在仓库的 [Releases](https://github.com/sweet11021101-png/EasySorting/releases) 页面。
+完整操作视频存放在仓库的 [Releases](https://github.com/sweet11021101-png/EasySorting/releases) 页面，也可以通过 README 顶部的入口直接播放或下载。
 
 ## 当前限制
 
